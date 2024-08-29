@@ -1,9 +1,9 @@
 {
   "name": "minimal-dark",
-  "displayName": "Minimal Dark",
+  "displayName": "Better Mailspring Dark",
   "theme": "ui",
   "version": "0.0.1",
-  "description": "Clean and bold dark theme for Mailspring.",
+  "description": "A better version of yz2's Minimal Dark Theme, with various bug fixes and improvements ",
   "license": "MIT",
   "engines": {
     "mailspring": "*"
