@@ -10,12 +10,54 @@
 @isaac-orange: #ff7b00;
 @isaac-error: #ff5050;
 
-/* Mailspring Base Colors */
-
-@text-color: #1e1e1e;
-@text-color-link: @isaac-accent;
-@text-color-link-hover: lighten(@isaac-accent, 10%);
-
 /* Borders */
 
 @base-border-radius: 2px;
+
+@accent-primary: #58f2f4;
+@accent-primary-dark: #58f2f4;
+
+@background-primary: #33302f;
+@background-off-primary: #33302f;
+@background-secondary: #3b3736;
+@background-tertiary: #3f3b39;
+
+@border-color-primary: #2c2a29;
+@border-color-secondary: #2c2a29;
+@border-color-tertiary: #58f2f4;
+@border-color-divider: #282625;
+
+@text-color: #1e1e1e;
+@text-color-subtle: #c0c0c0;
+@text-color-very-subtle: #808080;
+@text-color-inverse: #e5e5e5;
+@text-color-inverse-subtle: #e6e6e6;
+@text-color-inverse-very-subtle: #e6e6e6;
+@text-color-heading: #e6e6e6;
+
+@text-color-link: #58f2f4;
+@text-color-link-hover: @isaac-accent;
+@text-color-link-active: lighten(@isaac-accent, 10%);
+
+@btn-default-bg-color: #4c4845;
+@dropdown-default-bg-color: #4c4845;
+
+@input-bg: #3f3b39;
+@input-border: #3f3b39;
+
+@list-bg: #4c4845;
+@list-border: #4c4845;
+@list-selected-color: @text-color-inverse;
+@list-focused-color: #33302f;
+
+@toolbar-background-color: #282625;
+@panel-background-color: #282625;
+
+@text-color-prefilter:    @text-base-prefilter;
+@text-base-prefilter:  spin(#fff - @text-color, 180);
+
+// Message filter
+@message-filter:       invert(100%) hue-rotate(180deg);
+@message-filter-undo:  hue-rotate(-180deg) invert(120%); // white will be a bit fainter
+
+@text-base-prefilter:  spin(#fff - @text-color, 180);
